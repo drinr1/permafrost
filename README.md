@@ -37,10 +37,11 @@ First public crypter using block permutation instead of encryption.
 ---
 
 ## Usage
-```bash
+
+<pre>
 pip install pefile
 python crypter.py target.exe -o out.exe -b 16
-```
+</pre>
 
 `-b` block size　　`-s` seed (optional)
 
