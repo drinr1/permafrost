@@ -1,8 +1,15 @@
 <div align="center">
 
 # permafrost
+NO API
 
 x64 PE crypter using block permutation. No encryption, no VirtualProtect — pure math.
+
+---
+
+## Disclaimer
+
+This project is for **educational and research purposes only**. Built to demonstrate block permutation as an alternative to traditional encryption-based PE crypters. Not intended for malicious use.
 
 ---
 
@@ -13,7 +20,7 @@ Most crypters XOR/AES code then call VirtualProtect(RWX) to decrypt at runtime. 
 permafrost shuffles .text blocks with Fisher-Yates. Code stays executable, just wrong order.
 Stub unshuffles via LCG inverse. ~200 bytes, zero API calls.
 
-Got lazy to develop this further. Need something custom? DM me on Telegram: [Otvratitelnyy](https://t.me/dalbaebIna_o)
+This project is not actively maintained.
 
 ---
 
@@ -29,7 +36,6 @@ First public crypter using block permutation instead of encryption.
 |---|:---:|:---:|
 | VirtualProtect call | yes | no |
 | RWX memory | runtime API | static PE flag |
-| Crypto API | yes | no |
 | New sections | often | no |
 | Entropy | ~7.5 (random) | unchanged |
 | Method | encrypt code | shuffle blocks |
@@ -63,10 +69,3 @@ If you use permafrost — credit required.
 
 **drinr1** — [github.com/drinr1](https://github.com/drinr1)
 
----
-
-## License
-
-BSD-3-Clause
-
-</div>
