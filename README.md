@@ -36,7 +36,7 @@ First public crypter using block permutation instead of encryption.
 |---|:---:|:---:|
 | VirtualProtect call | yes | no |
 | RWX memory | runtime API | static PE flag |
-| New sections | often | no |
+| Win api | Yes | no |
 | Entropy | ~7.5 (random) | unchanged |
 | Method | encrypt code | shuffle blocks |
 
