@@ -10,7 +10,7 @@ x64 PE crypter using block permutation. No encryption, no VirtualProtect — pur
 ## Disclaimer
 
 This project is for **educational and research purposes only**. Built to demonstrate block permutation as an alternative to traditional encryption-based PE crypters. Not intended for malicious use.
-
+Created for university coursework on AV evasion techniques. Educational purposes only.!
 ---
 
 ## Concept
